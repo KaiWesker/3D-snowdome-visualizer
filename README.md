@@ -6,6 +6,29 @@
 
 基本操作は音楽の再生停止とカメラの視点移動だけで楽しむことが出来ます。操作方法に関しては後述しています。
 
+### ファイル (Files)
+**ex.html**
+
+3Dヴィジュアライザを表示させるHTMLファイルです。
+
+**ex.js**
+
+3DCGと音楽の動きを制御しているjavascriptファイルです。
+
+音楽はSongle Widget API、CGはThree.jsを利用しています。
+
+[Songle Widget API](http://widget.songle.jp/)
+
+[Three.js](https://threejs.org/)
+
+**three.min.js**
+
+Three.jsを利用できるミニファイされたファイルです。Three.jsのホームページからもダウンロード可能です。
+
+**TrackballControll.js**
+
+Three.jsのカメラの視点移動をするためのファイルです。こちらもThree.jsのホームページからダウンロード可能です。
+
 ### 使い方 (Usage)
 
 静的ファイルのみで構成されているので、ex.htmlを適当なブラウザアプリで開いて頂ければ勝手にコンテンツは始まります。
